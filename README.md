@@ -18,6 +18,7 @@ Ce projet vise à créer Système de Gestion de Données Éducatives
 ---
 > 🔗 Diagramme Presents les liaison entre les tableaux de bases de données
 
-![Diagramme](https://github.com/user-attachments/assets/51322d73-b6f1-476a-9432-607f25515b47)
+![Diagramme](https://github.com/user-attachments/assets/eccf6a19-ba7b-44cf-a036-7312e85e44ad)
+
 
 
