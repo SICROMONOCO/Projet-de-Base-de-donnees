@@ -12,7 +12,7 @@ CREATE TABLE Classe (
 
 CREATE TABLE Etudiants (
   étudiants_id INT PRIMARY KEY AUTO_INCREMENT,
-  classe_id INT NULL,
+  classe_id INT NOT NULL,
   personnel_nom VARCHAR(50) NOT NULL,
   famille_nom VARCHAR(50) NOT NULL,
   date_de_naissance DATE NOT NULL,
@@ -24,7 +24,7 @@ CREATE TABLE Etudiants (
 
 CREATE TABLE Matières (
   matières_id INT PRIMARY KEY AUTO_INCREMENT,
-  professeur_id INT,
+  professeur_id INT NOT NULL,
   matières_code VARCHAR(10) UNIQUE NOT NULL,
   matières_nom VARCHAR(100) NOT NULL
 );
@@ -39,16 +39,16 @@ CREATE TABLE Professeurs (
 
 CREATE TABLE Examens (
   Examen_id INT PRIMARY KEY AUTO_INCREMENT,
-  classe_id INT,
-  matières_id INT,
+  classe_id INT NOT NULL,
+  matières_id INT NOT NULL,
   Examen_nom VARCHAR(50) NOT NULL,
   Examen_date DATE NOT NULL
 );
 
 CREATE TABLE Notes (
   notes_id INT PRIMARY KEY AUTO_INCREMENT,
-  étudiants_id INT,
-  Examen_id INT,
+  étudiants_id INT NOT NULL,
+  Examen_id INT NOT NULL,
   Note_obtenue FLOAT CHECK ( Note_obtenue BETWEEN 0 AND 20 ),
   Mention ENUM('Passable', 'Assez bien', 'Bien', 'Très bien'),
   Commentaire TEXT
