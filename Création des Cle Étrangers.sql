@@ -31,9 +31,3 @@ FOREIGN KEY (classe_id) REFERENCES Classe(classe_id); -- Relie chaque examen à 
 ALTER TABLE Notes
 ADD CONSTRAINT fk_notes_etudiants
 FOREIGN KEY (étudiants_id) REFERENCES Etudiants(étudiants_id) ON DELETE CASCADE, -- Lie chaque note à un étudiant par id
-ADD CONSTRAINT fk_notes_matieres
-FOREIGN KEY (matières_id) REFERENCES Matières(matières_id) ON DELETE CASCADE, -- Associe chaque note à une matière par id
-ADD CONSTRAINT fk_notes_examens
-FOREIGN KEY (Examen_id) REFERENCES Examens(Examen_id) ON DELETE CASCADE, -- Relie chaque note à un examen par id
-ADD CONSTRAINT fk_notes_classe
-FOREIGN KEY (classe_id) REFERENCES Classe(classe_id) ON DELETE CASCADE; -- Associe chaque note à une classe par id
