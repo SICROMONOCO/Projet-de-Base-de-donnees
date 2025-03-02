@@ -47,8 +47,7 @@ CREATE TABLE Examens (
   Examen_id INT PRIMARY KEY AUTO_INCREMENT,
   classe_id INT,
   Examen_nom VARCHAR(50) NOT NULL,
-  Examen_date DATE NOT NULL,
-  matières_id INT NOT NULL
+  Examen_date DATE NOT NULL
 );
 
 CREATE TABLE Notes (
