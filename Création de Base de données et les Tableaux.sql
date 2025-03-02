@@ -31,7 +31,6 @@ CREATE TABLE Matières (
 
 CREATE TABLE Professeurs (
   professeur_id INT PRIMARY KEY AUTO_INCREMENT,
-  matières_id INT,
   personnel_nom VARCHAR(50) NOT NULL,
   famille_nom VARCHAR(50) NOT NULL,
   email VARCHAR(100) UNIQUE,
