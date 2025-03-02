@@ -53,9 +53,6 @@ CREATE TABLE Examens (
 CREATE TABLE Notes (
   notes_id INT PRIMARY KEY AUTO_INCREMENT,
   étudiants_id INT,
-  matières_id INT,
-  Examen_id INT,
-  classe_id INT,
   Note_obtenue FLOAT CHECK ( Note_obtenue BETWEEN 0 AND 20 ),
   Mention ENUM('Passable', 'Assez bien', 'Bien', 'Très bien'),
   Commentaire TEXT
