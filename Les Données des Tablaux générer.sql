@@ -1,3 +1,23 @@
+-- Insertion de données dans la table Examens
+
+INSERT INTO Examens (classe_id, Examen_nom, Examen_date)
+VALUES 
+  (1, 'Évaluation initiale du semestre', '2025-03-15'),
+  (2, 'Test de connaissances fondamentales', '2025-03-16'),
+  (3, 'Examen diagnostique du premier trimestre', '2025-03-17'),
+  (4, 'Contrôle continu - Module 1', '2025-03-18'),
+  (5, 'Évaluation des compétences acquises', '2025-03-19'),
+  (6, 'Examen intermédiaire du semestre', '2025-03-20'),
+  (7, 'Test d\'application pratique', '2025-03-21'),
+  (8, 'Évaluation formative principale', '2025-03-22'),
+  (9, 'Contrôle des connaissances théoriques', '2025-03-23'),
+  (10, 'Examen de mi-parcours', '2025-03-24'),
+  (11, 'Test d\'aptitude du premier cycle', '2025-03-25'),
+  (12, 'Évaluation sommative préliminaire', '2025-03-26'),
+  (13, 'Examen de synthèse des modules', '2025-03-27'),
+  (14, 'Contrôle intégré des compétences', '2025-03-28'),
+  (15, 'Bilan des acquis du premier semestre', '2025-03-29');
+
 -- Insertion de données dans la table Matières
 
 INSERT INTO Matières (professeur_id, matières_nom, matières_code, matières_id) VALUES
