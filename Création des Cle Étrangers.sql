@@ -24,8 +24,6 @@ FOREIGN KEY (professeur_id) REFERENCES Professeurs(professeur_id); -- Relie chaq
 
 -- Ajouter les clés étrangères à la table Examens
 ALTER TABLE Examens
-ADD CONSTRAINT fk_examens_matieres
-FOREIGN KEY (matières_id) REFERENCES Matières(matières_id) ON DELETE CASCADE, -- Associe chaque examen à une matière
 ADD CONSTRAINT fk_examens_classe
 FOREIGN KEY (classe_id) REFERENCES Classe(classe_id); -- Relie chaque examen à la classe qui le passe
 
