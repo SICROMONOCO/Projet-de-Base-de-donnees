@@ -14,3 +14,8 @@ Ce projet vise à créer Système de Gestion de Données Éducatives
 -3️⃣ Générer les certificats PDF ou relevé de notes via Python en utilisant `reportlab`.
 
 -4️⃣ Créer une interface Web avec `Streamlit` pour automatiser tout ça et avoir une expérience fluide et simple.
+
+---
+> 🔗 Diagramme Presents les liaison entre les tableaux de bases de données
+
+![Diagramme](https://github.com/user-attachments/assets/33cb6499-099e-4f35-be4e-1195e24d727e)
