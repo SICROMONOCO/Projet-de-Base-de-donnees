@@ -7,11 +7,6 @@ ALTER TABLE Etudiants
 ADD CONSTRAINT fk_etudiants_classe
 FOREIGN KEY (classe_id) REFERENCES Classe(classe_id); -- Lie chaque étudiant à sa classe id
 
--- Ajouter les clés étrangères à la table Professeurs 
-ALTER TABLE Professeurs
-ADD CONSTRAINT fk_professeurs_matieres
-FOREIGN KEY (matières_id) REFERENCES Matières(matières_id); -- Relie chaque professeur à la matière qu'il enseigne par id
-
 -- Ajouter une colonne et une clé étrangère à la table Matières
 ALTER TABLE Matières
 ADD CONSTRAINT fk_matieres_professeur
