@@ -48,7 +48,7 @@ CREATE TABLE Examens (
   classe_id INT,
   Examen_nom VARCHAR(50) NOT NULL,
   Examen_date DATE NOT NULL,
-  matières_code VARCHAR(10) NOT NULL
+  matières_id INT NOT NULL
 );
 
 CREATE TABLE Notes (
