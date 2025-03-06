@@ -16,9 +16,10 @@ Ce projet vise à créer Système de Gestion de Données Éducatives
 -4️⃣ Créer une interface Web avec `Streamlit` pour automatiser tout ça et avoir une expérience fluide et simple.
 
 ---
-> 🔗 Diagramme Presents les liaison entre les tableaux de bases de données
+> 🔗 Diagramme qui represents les liaison entre les tableaux de cette base de données
 
-![Diagramme](https://github.com/user-attachments/assets/eccf6a19-ba7b-44cf-a036-7312e85e44ad)
+![Diagramme](https://github.com/user-attachments/assets/a11f26ff-6b8d-41e4-a8b4-c04576c011a6)
+
 
 
 
