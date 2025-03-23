@@ -6,7 +6,7 @@ Ce projet vise à créer Système de Gestion de Données Éducatives
 
 ---
 
-> 📌 Processus Global
+> 📌 Les bibliothèques
 
 `mysql.connector` → Connexion et requêtes MySQL
 
