@@ -9,11 +9,17 @@ Ce projet vise à créer Système de Gestion de Données Éducatives
 > 📌 Processus Global
 
 `mysql.connector` → Connexion et requêtes MySQL
+
 `fpdf` → Génération des certificats en PDF
+
 `streamlit` → Interface web pour accéder aux certificats
+
 `base64` → Encodage/décodage des certificats PDF
+
 `matplotlib.pyplot` → Visualisation des statistiques des notes
+
 `seaborn` → Création de graphiques avancés
+
 
 ---
 > 🔗 Diagramme qui represents les liaison entre les tableaux de cette base de données
